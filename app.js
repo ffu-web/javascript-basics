@@ -69,7 +69,8 @@ let job = {
 let person = {
     name: 'Abdirisak', // Property
     greet() {  // Method
-        alert('Hello!');
+        // alert('Hello!');
+        console.log('Hello!');
     }
 };
 
