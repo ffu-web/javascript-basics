@@ -43,25 +43,34 @@ let job = {
 
 // alert(totalAdultYears);
 
-let totalAdultYears;
+// let totalAdultYears;
 
-function calculateAdultYears(userAge) {
-    return userAge - 15;
-}
+// function calculateAdultYears(userAge) {
+//     return userAge - 15;
+// }
 
-totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+// totalAdultYears = calculateAdultYears(age);
+// alert(totalAdultYears);
 
-age = 60; 
-totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+// age = 60; 
+// totalAdultYears = calculateAdultYears(age);
+// alert(totalAdultYears);
 
-// another example of function Paramaters 
+// // another example of function Paramaters 
 
-function example(parameter) {
-    alert(parameter);
-}
+// function example(parameter) {
+//     alert(parameter);
+// }
 
-const argument  = 'FFU';
+// const argument  = 'FFU';
 
-example(argument);
+// example(argument);
+
+let person = {
+    name: 'Abdirisak', // Property
+    greet() {  // Method
+        alert('Hello!');
+    }
+};
+
+person.greet();
