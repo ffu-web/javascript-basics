@@ -15,3 +15,41 @@
 //      with ANY list of values
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
+
+
+
+
+
+
+
+
+
+
+
+// 1) Create three new variables:
+course='Web Development'        //    - A variable that stores the name of an online course of your choice
+price= 1500                     //    - A variable that stores the price of that course
+mainGoals=['Expert in ICT','Build hosted web','Leadership']     //    - A variable that stores the three main goals that you have, when taking this course
+
+alert(course+price+mainGoals);  // 2) Output ("alert") the three variable values
+
+function dhamal(){      // 3) Try "grouping" the three variables together and still output their values thereafter
+        alert(course)
+        alert(price)
+        alert(mainGoals)
+}
+dhamal.alert            // The output of my joined variables into above function
+
+
+alert(mainGoals[1])  // 4) Also output the second element in your "main goals" variable
+
+
+function custom(mainGoals){
+        alert.mainGoals(2)
+        
+}
+
+
+command=custom
+
+alert(command)           // 6) Execute your custom command from (5) and output ("alert") the result
