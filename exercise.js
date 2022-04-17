@@ -38,15 +38,14 @@ function dhamal(){      // 3) Try "grouping" the three variables together and st
         alert(price)
         alert(mainGoals)
 }
-dhamal.alert            // The output of my joined variables into above function
+alert(dhamal)           // The output of my joined variables into above function
 
 
 alert(mainGoals[1])  // 4) Also output the second element in your "main goals" variable
 
 
 function custom(mainGoals){
-        alert.mainGoals(2)
-        
+        alert(mainGoals[2])
 }
 
 
