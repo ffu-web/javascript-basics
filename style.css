@@ -1,12 +1,25 @@
+body{
+    background-color: rgba(200, 200,10, 0.4)
+}
+
 h1{
-    color:rgb(150, 200, 200);
-    background-color: rgba(200, 249, 33, 0.2);
+    color:rgb(100, 132, 90);
+    background-color: rgba(200, 249, 33,2);
     font-size: 2rem;
     text-align: center;
     align-items: center;
-    border: 0.1rem solid rgb(40, 100, 100);
+    /* border: 0.1rem solid rgb(40, 100, 100); */
     border-radius: 0.5rem;
     margin: 10rem;
     padding: 1rem;
 
+}
+
+footer{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.7);
+    background-color: rgb(100, 132, 90);
+    padding: 1rem;
+    margin:0rem 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
