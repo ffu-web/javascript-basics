@@ -17,8 +17,7 @@ h1{
 
 footer{
     text-align: center;
-    color:rgba(255, 255, 255, 0.7);
-    background-color: rgb(100, 132, 90);
+    color:rgba(0,0,0,0.6);
     padding: 1rem;
     margin:0rem 4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
