@@ -15,3 +15,55 @@
 //      with ANY list of values
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
+
+
+
+
+
+
+// proplem solution
+
+let course='Web Development'
+let price= 1500
+let mainGoals=['Web Developer','Freelancer','Leadership']
+
+alert(course+price+mainGoals+" \n|| reading 3 variables");
+
+function dhamal(){
+        alert(course+"\n|| from the first function \n\n"+price+"\n||  from the first function \n\n"+mainGoals+"\n|| from the first function")
+        
+}
+dhamal()
+
+
+alert(mainGoals[1] + "\n|| calling array variable by index:1")
+
+
+    // exercise time
+    bilaw=mainGoals.length
+
+    function myFunction() {
+      let goalIndex=prompt("Enter the index of your goal :")
+      newgoal_content=mainGoals[goalIndex]
+      if (goalIndex != null) {
+        document.getElementById("update").innerHTML=
+        "Congratulations : "  + newgoal_content + " wish you to acheive soon.";
+      }
+    }         
+                // Adding an item to index 
+                var x = bilaw
+    
+    function addGoal(){
+      box=document.getElementById("newgoal").value;
+      document.getElementById("newgoal").style.visibility="visible"
+      if(box != ""){
+     mainGoals[x] = document.getElementById("newgoal").value;
+     alert("Element: " + mainGoals[x] + " Added at index " + x);
+     x++;
+     document.getElementById("newgoal").value = "";
+      }
+      else{
+        alert("please fill textbox !!")
+      }
+    }
+
